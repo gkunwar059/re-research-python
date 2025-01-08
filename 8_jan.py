@@ -1,3 +1,19 @@
+
+# object rage more then 256
+
+
+# a=257
+# b=256
+
+# print(a is b)
+
+
+
+
+
+
+
+
 # is instancce is used to check if an object is an instance of a class
 """is_instance() this func will return True if the object is an instance of the class, otherwise it will return False."""
 
@@ -84,12 +100,23 @@ examples:
 #tricky example
 
 
-y=10
-x=y
-print(y)
-print(x)
+# y=10
+# x=y
+# print(y)
+# print(x)
 
-x=20
-print(x)
-print(y)
+# x=20
+# print(x)
+# print(y)
+
+
+
+#hamle chai kunai pani integer or varaible ma data set garepaxi chai tesma kehi pani garna mildaina usko object same hunxa
+
+# String Interning
+# a="python is cool"
+# print(type(a))
+# b="python is cool"
+# print(type(b))
+# print( a is b)
 
